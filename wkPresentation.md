@@ -1,3 +1,6 @@
+---
+theme : copenhagen
+---
 # Installation 
 Visual Studio Code : https://code.visualstudio.com/
 
@@ -6,7 +9,7 @@ Pandoc             : https://pandoc.org/installing.html
 Git installation   : https://git-scm.com/download/win
 
 ---
-### Latex
+# Latex
 
  Windows : https://miktex.org/download
  
@@ -15,7 +18,7 @@ Git installation   : https://git-scm.com/download/win
  Linux : https://www.tug.org/texlive/
 
 ---
-### GitHub
+# GitHub
 Creating a github account: https://github.com/
 
 For pro account, you can link school email address to get benefits: https://education.github.com/discount_requests/new
@@ -38,11 +41,15 @@ To look like this : The *quick* brown fox, jumped **over** the lazy [dog](https:
 
 Html:
 ```
-The <i>quick</i> brown fox, jump <strong>over the lazy</strong> <a href="https://en.wikipedia.org/wiki/Dog"> dog </a>
+The <i>quick</i> brown fox, jump <strong>over the lazy
+
+</strong> <a href="https://en.wikipedia.org/wiki/Dog"> dog </a>
 ```
 Markdown: 
 ```
-The *quick* brown fox, jumped **over** the lazy [dog](https://en.wikipedia.org/wiki/Dog).
+The *quick* brown fox, jumped **over** the lazy 
+
+[dog](https://en.wikipedia.org/wiki/Dog).
 ```
 
 # Why writers love markdown so much ?
@@ -129,6 +136,7 @@ Text
 Image
 ![m'lady](https://i.imgur.com/v8IVDka.jpg)
 ```
+# Image
 ![m'lady](https://i.imgur.com/v8IVDka.jpg)
 
 # List
@@ -189,7 +197,7 @@ Escape
 
 # File conversion with Pandoc
 
-# Introduction to pandoc 
+## Introduction to pandoc 
 If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
 
 Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.
